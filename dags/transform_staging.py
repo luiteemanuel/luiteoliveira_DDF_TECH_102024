@@ -35,8 +35,7 @@ def transform_staging():
     csv_data = StringIO(csv_string)
     df = pd.read_csv(csv_data)
 
-    # Remover linhas onde a data de fabricação é posterior à data de venda
-    df = df[df['Ano_Fabricacao'] <= df['Data_Venda']]
+
     # Remover linhas onde o valor da venda é menor ou igual a zero
     df = df[df['Valor_Venda'] > 0]
 
