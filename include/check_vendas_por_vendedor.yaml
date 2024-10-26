@@ -1,0 +1,17 @@
+data_source:
+  type: csv
+  path: /tmp/curatedzone/vendas_por_vendedor.csv
+
+checks:
+  - name: "Check for null values"
+    column: "Vendedor_Responsavel"
+    type: "not_null"
+
+  - name: "Check for unique vendedor"
+    column: "Vendedor_Responsavel"
+    type: "unique"
+
+metrics:
+  - name: "Total Sales"
+    column: "total_vendas"
+    type: "sum"
