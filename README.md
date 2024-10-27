@@ -62,6 +62,7 @@ na pasta:`/dags` estão todos os códigos que utilizei na extração, carregamen
   - **venda_por_vendedor**
 
 Além disso, desenvolvi vários **datasets** com cada função para que o time de analistas possa consultar dados prontos.
+<img src="/img/curated_data.png="datasets">
 
 - *load_analytics_sandbox.py*: DAG onde repliquei os **datasets** da **curatedzone** e os disponibilizei para os analistas utilizarem.
 
