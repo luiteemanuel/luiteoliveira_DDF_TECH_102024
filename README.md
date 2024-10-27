@@ -36,7 +36,7 @@ Espaço para experimentação e análise de dados, permitindo testes e protótip
 ## **ETL** 
 Nesta etapa foi a hora de codar!!
 
-Usei o *Docker + Apacher Airflow* para Orquestrar toda minha Pipeline de dados. 
+Usei o **Docker + Apacher Airflow + python** para Orquestrar toda minha Pipeline de dados. 
 na pasta:`/dags` estão todos os códigos que utilizei na extração, carregamento e transformação de dados.
 
 - *load_landingzone.py*: DAG onde transfomei meu dataset usando pandas e carregei na primeira camada  do Datalake no S3.
@@ -74,5 +74,6 @@ Realizei um processo de Data Quality para validar os dados e garantir que esteja
 
 **Observação:** O ideal é orquestrar essa etapa também com o **Airflow**, mas enfrentei problemas ao rodar localmente, pois o Soda-core ficou indisponível, dificultando essa etapa.
 
+## **Conclusão**
 
-
+Este é um projeto End to End de engenharia de dados. Posteriormente, irei realizar uma visualização dos dados utilizando o Metabase ou o Streamlit.
