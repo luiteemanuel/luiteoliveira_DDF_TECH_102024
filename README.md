@@ -17,7 +17,7 @@ Segue um exemplo da Arquitetura que vamos trabalhar!
 
 
 
-DataLake contruito e populado usando `AWS S3` 
+DataLake Construído e Populado usando `AWS S3` 
 <img src="/img/datalake.png" alt="Estrutura Montada">
 
 ### **Arquitetura de Zones**
