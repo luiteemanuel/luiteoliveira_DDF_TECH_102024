@@ -12,7 +12,7 @@ Foi Usado um dataset de vendas de carros!
 Confira o Dataset: [Car Sales Data](https://www.kaggle.com/datasets/suraj520/car-sales-data) 
 
 ## **Arquitetura do Datalake:** 
-optei por implmentar a Arquitetura do data Lake!!
+Segue um exemplo da Arquitetura que vamos trabalhar!
 <img src="/img/unnamed.jpg" alt="Exemplo de da Estrutura.">
 
 
