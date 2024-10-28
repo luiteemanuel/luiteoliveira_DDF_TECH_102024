@@ -13,7 +13,7 @@ Confira o Dataset: [Car Sales Data](https://www.kaggle.com/datasets/suraj520/car
 
 ## **Arquitetura do Datalake:** 
 optei por implmentar a Arquitetura do data Lake!!
-<img src="/img/unnamed.jpg alt="Exemplo de da Estrutura.">
+<img src="/img/unnamed.jpg" alt="Exemplo de da Estrutura.">
 
 
 
