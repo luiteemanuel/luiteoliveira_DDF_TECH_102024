@@ -70,14 +70,16 @@ Além disso, desenvolvi vários **datasets** com cada função para que o time d
 
 - *load_analytics_sandbox.py*: DAG onde repliquei os **datasets** da **curatedzone** e os disponibilizei para os analistas utilizarem.
 
-<img src="/img/dags_airflow.png" alt="Pipeline no Airflow">
-
-
-## **ETL** Data Quality 
+## **Data Quality**  
 
 Realizei um processo de Data Quality para validar os dados e garantir que estejam 100% prontos para a equipe de Analytics. Utilizei a biblioteca Soda-core para essa validação. O script **data_quality.py** gera um novo arquivo CSV com os dados validados. 
 
 **Observação:** O ideal é orquestrar essa etapa também com o **Airflow**, mas enfrentei problemas ao rodar localmente, pois o Soda-core ficou indisponível, dificultando essa etapa.
+
+
+**Pipeline de Dados - Airflow**:
+<img src="/img/dags_airflow.png" alt="Pipeline no Airflow">
+
 
 ## **Conclusão**
 
